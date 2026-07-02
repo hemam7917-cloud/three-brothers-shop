@@ -1,0 +1,131 @@
+/*=========================================
+        MOBILE
+=========================================*/
+
+@media (max-width:768px){
+
+header{
+
+flex-direction:column;
+
+padding:20px;
+
+}
+
+.logo{
+
+margin-bottom:20px;
+
+}
+
+nav ul{
+
+flex-direction:column;
+
+align-items:center;
+
+gap:15px;
+
+}
+
+.hero{
+
+padding:50px 20px;
+
+}
+
+.hero h1{
+
+font-size:32px;
+
+}
+
+.hero p{
+
+font-size:18px;
+
+}
+
+.hero button{
+
+width:100%;
+
+}
+
+#products{
+
+padding:30px;
+
+}
+
+.product-container{
+
+grid-template-columns:1fr;
+
+}
+
+.card{
+
+width:100%;
+
+}
+
+#about{
+
+padding:30px;
+
+}
+
+#contact{
+
+padding:30px;
+
+}
+
+footer{
+
+padding:20px;
+
+}
+
+}
+
+/*=========================================
+        TABLET
+=========================================*/
+
+@media (min-width:769px) and (max-width:1024px){
+
+header{
+
+padding:20px 30px;
+
+}
+
+.hero h1{
+
+font-size:40px;
+
+}
+
+.product-container{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+/*=========================================
+        LARGE DESKTOP
+=========================================*/
+
+@media(min-width:1400px){
+
+.product-container{
+
+grid-template-columns:repeat(4,1fr);
+
+}
+
+}
